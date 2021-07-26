@@ -1,5 +1,5 @@
-- 👋 Hi, I’m...
-- 👀 I’m interested in learning new programming languages.
-- 🌱 I’m currently studying Computer Science and working towards a BS.
+- 👋 Hi, I’m Matthew Armstrong.
+- 👀 I am a novice programmer interested in learning new languages. 
+- 🌱 I am an undergrad undergoing a B.S in Computer Science.
 - 💞️ I’m looking to collaborate on anything! The more experience the better.
 - 📫 You can reach me at...
