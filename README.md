@@ -1,3 +1,35 @@
-- 👋 Hi, I’m Matthew Armstrong.
-- 🔭 I am an undergrad programmer interested in learning new languages. I am pursuing a B.S in Computer Science.
-- ☕️ I’m looking to collaborate on anything! The more experience the better. 
+<?php
+
+namespace AshBaker;
+
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Qquicker',
+                'position' => 'Founder'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Vuejs::class,
+            Angular::class,
+            ReactNative::class,
+            TailwindCss::class,
+            Aws::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To contribute to open source.';
+    }
+}
